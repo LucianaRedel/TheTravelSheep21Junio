@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import './variables/colores';
+@import './variables/extend';
+
+@import './secciones/argentina.scss';
+@import './secciones/brazil.scss';
+@import './secciones/shareyourexperience.scss';
+@import './secciones/footer.scss';
+@import './secciones/europe.scss';
+@import './secciones/northamerica.scss';
+@import './secciones/index.scss';
+
+
+.tituloPrincipal {
+    display: grid;
+}
+
+.imagenDelmedio {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.tituloPrincipal {
+    color: coral;
+    text-align: center;
+    max-width: 80vw;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    border: dotted 3px black;
+    margin: 30px;
+    padding: 30px;
+    font-size: xx-large;
+}
+
+main {
+    margin-bottom: 200px auto;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 200px auto;
+    max-width: fit-content;
+    /* background-color: lightpink; */
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #d084d1 100%);
+    border: 1px solid black;
+}
+
+body {
+    border: 1px solid black;
+}
+
+
+img {
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+#sinBorde {
+    border: none;
+    border-radius: 0%;
+}
+
+.bootstrap {
+    width: 450px;
+    height: auto;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.imagenDinamica {
+    display: grid;
+    grid-template-areas:
+        "parrafoTercero" "bootstrap"
+    ;
+    grid-template-columns: 1fr 1fr;
+}
+
+.negrita {
+    background-color: #ffcfd2;
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid black;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "nav nav nav nav"
+        "seccion1 seccion1 seccion2 seccion4"
+        "seccion1 seccion1 seccion2 seccion4"
+        "seccion1 seccion1 seccion2 seccion4"
+        "seccion3 seccion3 seccion3 seccion3"
+        "seccion3 seccion3 seccion3 seccion3"
+        "seccion5 seccion5 seccion5 seccion5"
+        "footer footer footer footer"
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: auto;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.seccion2 {
+    grid-area: seccion2;
+}
+
+.seccion1 {
+    grid-area: seccion1;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+}
+
+.primerLinea p {
+    margin: 1rem;
+}
+
+.seccion3 {
+    grid-area: seccion3;
+}
+
+.seccion4 {
+    grid-area: seccion4;
+    border: 4px dotted black;
+}
+
+.seccion5 {
+    grid-area: seccion5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    text-align: center;
+    border: 1.5px dotted black;
+}
+
+.accordion {
+    background-color: #FBDA61 !important;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #d084d1 100%) !important;
+}
+
+.primerLinea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 25px;
+}
+
+main div section img {
+    margin: 1rem;
+}
+
+.scale {
+    color: black;
+    animation-duration: 5s;
+    animation-name: scale;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes scale {
+    50% {
+        transform: scale(1.2);
+        color: darkslategrey;
+    }
+
+    75% {
+        transform: scale(1.5);
+    }
+}
+
+
+// /* Media queries ajuste de pantalla, telefonos celulares */ 
+
+@media (max-width: 768px){ 
+
+    /* Index */
+    .grilla {
+        background-color: thistle;
+    }
+
+    .tituloPrincipal {
+        max-width: 60vw;
+        justify-items: center;
+    }
+
+    .parrafoPrimero {
+        max-width: 70vw;
+    }
+
+    .imagenDelmedio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagenYtexto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grilla2 {
+        display: flex;
+        flex-direction: column;
+        background-color: thistle
+    }
+
+    .imagenDinamica {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parrafoSegundo {
+        max-width: 70vw;
+    }
+
+    .parrafoTercero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 70vw;
+    }
+
+    .imagenDelmedio img {
+        max-width: max-content;
+    }
+
+    header {
+        background-color: lightsalmon;
+    }
+
+    footer {
+        background-color: antiquewhite;
+    }
+
+    header section h3 {
+        color: black;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* NorthAmerica Argentina Brazil Europe */
+    .container {
+        background-color: thistle;
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas:
+            "nav nav nav nav"
+            "seccion1 seccion1 seccion1 seccion1"
+            "seccion2 seccion2 seccion2 seccion2"
+            "seccion3 seccion3 seccion3 seccion3"
+            "seccion4 seccion4 seccion4 seccion4"
+            "seccion5 seccion5 seccion5 seccion5"
+            "footer footer footer footer"
+        ;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .seccion4 {
+        margin: 3rem;
+    }
+
+    .seccion3 {
+        width: 582px;
+    }
+
+    main {
+        background-color: thistle;
+    }
+
+    .seccionarriba {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: thistle;
+    }
+
+    .seccionabajo {
+        max-width: 50vw;
+        background-color: thistle;
+
+        .formularioA {
+            max-width: fit-content;
+            font-size: small;
+            padding: 10px;
+            margin: 0 auto;
+        }
+    }
+
+    #videoResponsive {
+        max-width: 60vw;
+    }
+
+    .primerLinea {
+        max-width: 68vw;
+    }
+    iframe.videoTelefono{
+        width: 456px;
+        height: 250px;
+    }  
+}
+
+// Ajuste de pantalla a dispositvos tipo tablet
+
+@media only screen and (min-width: 769px) and (max-width: 992px){ 
+
+    /* Index */
+    .grilla {
+        background-color: peachpuff;
+    }
+
+    .tituloPrincipal {
+        max-width: 90vw;
+        justify-items: center;
+    }
+
+    .parrafoPrimero {
+        max-width: 90vw;
+    }
+
+    .imagenDelmedio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagenYtexto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grilla2 {
+        display: flex;
+        flex-direction: column;
+        background-color: peachpuff
+    }
+
+    .imagenDinamica {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parrafoSegundo {
+        max-width: 90vw;
+    }
+
+    .parrafoTercero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 90vw;
+    }
+
+    .imagenDelmedio img {
+        max-width: max-content;
+    }
+
+    header {
+        background-color: lightsalmon;
+    }
+
+    footer {
+        background-color: antiquewhite;
+    }
+
+    header section h3 {
+        color: black;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* NorthAmerica Argentina Brazil Europe */
+    .container {
+        background-color: peachpuff;
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas:
+            "nav nav nav nav"
+            "seccion1 seccion1 seccion1 seccion1"
+            "seccion2 seccion2 seccion2 seccion2"
+            "seccion3 seccion3 seccion3 seccion3"
+            "seccion4 seccion4 seccion4 seccion4"
+            "seccion5 seccion5 seccion5 seccion5"
+            "footer footer footer footer"
+        ;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .seccion4 {
+        margin: 3rem;
+    }
+
+    .seccion3 {
+        max-width: max-content;
+    }
+
+    main {
+        background-color:peachpuff;
+    }
+
+    .seccionarriba {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: peachpuff;
+    }
+
+    .seccionabajo {
+        max-width: 50vw;
+        background-color: peachpuff;
+
+        .formularioA {
+            max-width: fit-content;
+            font-size: small;
+            padding: 10px;
+            margin: 0 auto;
+        }
+    }
+
+    #videoResponsive {
+        max-width: 80vw;
+    }
+
+    .primerLinea {
+        max-width: 80vw;
+    }
+
+    #tablet{
+        width: max-content;
+        height: 450px;
+        align-self: center;
+    }
+
+    .bootstrap {
+        width: 700px;
+    }
+
+    iframe#videoTablet{
+        width: 680px;
+        height: 300px;
+    }
+
+}

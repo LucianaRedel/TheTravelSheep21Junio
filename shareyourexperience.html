@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1c91f25296.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shorcut icon" href="./img/thetravelsheep.jpeg">
+    <title> The travel sheep / Share your experience </title>
+</head>
+
+<main>
+    <div>
+        <div class="nav">
+            <header class="inicio">
+                <section>
+                    <h1> <a href="./index.html"> <img src="./img/thetravelsheep.jpeg" width="90" height="90"
+                                alt="The travel sheep"> </a> </h1>
+                    <h3> The travel sheep </h3>
+                </section>
+                <section>
+                    <nav class="menuInicio" class="shadow p-3 mb-5 bg-body rounded">
+                        <ul class="menu">
+                            <li> <a href="./index.html"> Home </a></li>
+                            <li><a href="./northamerica.html"> North America </a></li>
+                            <li><a href="./brazil.html"> Brazil </a></li>
+                            <li><a href="./argentina.html"> Argentina </a></li>
+                            <li><a href="./europe.html"> Europe </a></li>
+                            <li><a href="./shareyourexperience.html"> Share your experience </a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </header>
+        </div>
+
+        <!-- Contenido principal -->
+        <main>
+            <div class="seccionarriba">
+                <section>
+                    <img src="https://miro.medium.com/max/735/0*BXoV0gW9qtZyf113.png" width="300" height="300"
+                        alt="Travellingquote">
+                </section>
+                <section class="tituloPrincipal">
+                    <h2 class="animate__animated animate__tada">Share your experience with us here</h2>
+                </section>
+                <section>
+                    <img src="https://i.pinimg.com/564x/1d/27/01/1d2701bab14d7456c2bda82d7d54479a--inspirational-travel-quotes-quote-pictures.jpg" width="300" height="300" alt="travelimage">
+                </section>
+            </div>
+            <div class="seccionabajo">
+                <section class="formularioA">
+                    <h3>Leave your comment below</h3>
+                    <div>
+                        <select name="destination">
+                            <option value="seleccion"> Select destination </option>
+                            <option value="argentina"> Argentina </option>
+                            <option value="europe"> Europe </option>
+                            <option value="brasil"> Brasil </option>
+                            <option value="northamerica"> Nort America</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select name="category">
+                            <option value="seleccion"> Select category</option>
+                            <option value="wheretoeat"> Where to eat</option>
+                            <option value="wheretostay"> Where to stay</option>
+                            <option value="donotmiss"> Do not miss this place</option>
+                            <option value="whattovisit">What to visit</option>
+                            <option value="contact">Want to go to the local database to be contacted by tourists</option>
+                            <option value="general">General comment</option>
+                        </select>
+                    </div>
+                    <form action="#" method="POST">
+                        <p> Your name </p>
+                        <input type="text" placeholder="Name">
+                        <br><br>
+                        <p> Your E-mail </p>
+                        <input type="email" placeholder="carlosperez@gmail.com">
+                        <br><br>
+                        <p> Leave your comment, experience or recommendation</p>
+                        <br>
+                        <textarea name="" id="" cols="50" rows="20"></textarea>
+                        <br>
+                        <input type="submit" value="Submit your comment">
+                        <br>
+                    </form>
+                </section>
+            </div>
+            <div class="seccion5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Get in contact with people who want to help you to enjoy your time in: <strong> Europe </strong>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go within the
+                                though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Get in contact with people who want to help you to enjoy your stay in: <strong> Argentina </strong>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go within the
+                                though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Get in contact with people who want to help you to enjoy your stay in: <strong> Brazil </strong>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go within the
+                                though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Get in contact with people who want to help you to enjoy your stay in: <strong> North America </strong>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go within the
+                                though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Pie de pagina -->
+        <div class="footer">
+            <footer>
+                <nav>
+                    <h4 class="aboutUs"> <ul>
+                        <li> <a href="./aboutus.html"> About us </a></li>
+                    </h4>
+                    <h4 class="wow animate__animated animate__heartBeat"> Connect with us also on </h4>
+                    <div>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                    <ul class="footerflex">
+                        <div>
+                            <li> <img src="./img/facebooklogo" alt="Facebook logo" width="30" height="30">
+                                <a href="https://www.facebook.com/" target="_blank"> Facebook</a></li>
+                        </div>
+                        <div>
+                            <li> <img src="./img/instagramlogo" alt="Instagram logo" width="30" height="30">
+                                <a href="https://www.instagram.com/" target="_blank"> Instagram </a></li>
+                        </div>
+                        <div>
+                            <li> <img src="img/twitterlogo" alt="Twitter logo" width="30" height="30">
+                                <a href=" https://www.twitter.com/" target="_blank"> Twitter </a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+
+        <script src="./js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+    </div>
+</main>
+
+
+</html>

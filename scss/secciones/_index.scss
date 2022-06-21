@@ -1,0 +1,61 @@
+.grilla {
+    display: grid;
+    grid-template-areas:
+        "tituloPrincipal"
+        "parrafoPrimero"
+        "imagenDelmedio"
+        "parrafoSegundo"
+    ;
+    grid-template-rows: auto;
+    /* background-color: lightpink; */
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #d084d1 100%);
+}
+
+.grilla2 {
+    display: grid;
+    grid-template-areas:
+        "imagenYtexto parrafoTercero"
+    ;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #d084d1 100%);
+}
+
+.imagenYtexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.parrafoPrimero {
+    display: grid;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+
+.parrafoSegundo {
+    display: grid;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+
+.parrafoTercero {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 80%; */
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+
+.parrafoTercero p {
+    margin: 1rem;
+}
