@@ -1,7 +1,8 @@
 Index
-<meta name="keywords" content="Travel, Inspiration, Recommendations, Traveling, Tourists, Adventures, Magic">
-<meta name="description" content="Love to travel, put your camera away, and instead of having a
+<meta name="keywords" content="Travel, Inspiration, Recommendations, Traveling, Tourists, Adventures, Magic, Love">
+<meta name="description" content="Love to travel, Enjoy it, put your camera away, and instead of having a
     pile of photos to show, you will have a moving experience to tell about.">
+
 
 North America
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +20,11 @@ Europe
 
 Argentina
 <meta name="Keywords"
-        content="Travel, Love, Recommendations, Visit, Tourists, Magic, Inspiration, Argentina, Salta, Jujuy, San Martin de los Andes, Bariloche, Iguazu, Buenos Aires, Usuahia">
+        content="Travel, Love, Recommendations, Visit, Tourists, Magic, Inspiration, Argentina, Tango, Best food, Salta, Jujuy, San Martin de los Andes, Bariloche, Iguazu, Buenos Aires, Usuahia">
 <meta name="description"
         content="Argentina, need reasons to visit? Here are just a few more: You can dance the world's most romantic
     dance in its birthplace, experience sporting passion like never before, enjoy nightlife that goes on well into the morning, amaze yourself with the most beautiful natural landscapes of the world, and you will for sure eat like a king!">
-
+   
 Brazil
 <meta name="Keywords"
         content="Brazil, Love, Travel, Beach, Inspiration, Recommendations, Rio de Janeiro, Recife, Porto de Galinhas, Florianopolis, Camboriu, Sao Paulo">

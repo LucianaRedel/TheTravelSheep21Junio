@@ -37,6 +37,7 @@
 
 }
 
+
 main {
     margin-bottom: 1px;
     margin-left: 1rem;
@@ -180,6 +181,13 @@ main div section img {
         background-color: #fff1e6;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: black;
+    }
+
+    .boton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
     }
 
 

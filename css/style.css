@@ -315,6 +315,12 @@ main div section img {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black; }
 
+.boton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px; }
+
 @keyframes scale {
   50% {
     transform: scale(1.2);
