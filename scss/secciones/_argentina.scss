@@ -1,8 +1,8 @@
 .accordion{
-    --bs-accordion-bg: linear-gradient(45deg, #FBDA61 0%, #d084d1 100%);
+    --bs-accordion-bg: $colorGradient;
 }
 
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed){  
     background-color: bisque;
     color: purple;
   

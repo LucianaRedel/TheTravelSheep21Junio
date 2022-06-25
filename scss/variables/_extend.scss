@@ -1,0 +1,14 @@
+%estiloTitulo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    font-size: xx-large;
+    text-align: center;
+}
+
+@mixin color ($colorScale) {
+    background-color: $colorScale;
+    text-transform: uppercase;
+    font-size: smaller;
+    font-family: $letraScale;
+}

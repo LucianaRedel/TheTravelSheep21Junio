@@ -28,27 +28,24 @@
 }
 
 .tituloPrincipal {
-    color: coral;
-    text-align: center;
-    max-width: 80vw;
-    font-family: 'Dancing Script', cursive;
-    font-weight: bold;
-    background-color: blanchedalmond;
+    color: $colorLetra; 
+    max-width: 90vw;
     border: dotted 3px black;
     margin: 30px;
     padding: 30px;
-    font-size: xx-large;
+    @extend %estiloTitulo;
+
 }
 
 main {
-    margin-bottom: 200px auto;
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 200px auto;
-    max-width: fit-content;
+    margin-bottom: 1px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1px;
+    // max-width: fit-content;
     /* background-color: lightpink; */
     background-color: #FBDA61;
-    background-image: linear-gradient(45deg, #FBDA61 0%, #d084d1 100%);
+    background-image: $colorGradient;
     border: 1px solid black;
 }
 
@@ -150,7 +147,7 @@ img {
 
 .accordion {
     background-color: #FBDA61 !important;
-    background-image: linear-gradient(45deg, #FBDA61 0%, #d084d1 100%) !important;
+    background-image: $colorGradient !important;
 }
 
 .primerLinea {
@@ -168,6 +165,14 @@ main div section img {
     animation-duration: 5s;
     animation-name: scale;
     animation-iteration-count: infinite;
+    @include color($colorScale);
+}
+
+.inicio {
+    &__logo {
+        margin-top: 1rem;
+
+    }
 }
 
 
@@ -183,7 +188,7 @@ main div section img {
 }
 
 
-// /* Media queries ajuste de pantalla, telefonos celulares */ 
+// /* Media queries ajuste de pantalla, telefonos celulares modo horizontal */ 
 
 @media (max-width: 768px){ 
 

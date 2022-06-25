@@ -1,0 +1,38 @@
+Index
+<meta name="keywords" content="Travel, Inspiration, Recommendations, Traveling, Tourists, Adventures, Magic">
+<meta name="description" content="Love to travel, put your camera away, and instead of having a
+    pile of photos to show, you will have a moving experience to tell about.">
+
+North America
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords"
+        content="North Amercia, Travel, Love, Recommendations, Inspiration, New York, Chicago, San Francisco, Washington, Los Angeles, Miami, Tourists">
+    <meta name="description" content="What could I tell you about the USA that you do not know already? It is an amazing country, with
+    beautiful
+    places, however, I will focus on the cities that, again in my opinion, are worth visiting ">
+
+Europe
+<meta name="Keywords"
+        content="Europe, Travel, Love, Recommendations, Experiences, Magic, England, France, London, Paris, Spain, Italy, Switzerland, Prague">
+<meta name="description" content="Europe, the, but always beautiful, old continent, where in every city you visit you will find a
+    place that will make you feel like if you are back on Middle Ages">
+
+Argentina
+<meta name="Keywords"
+        content="Travel, Love, Recommendations, Visit, Tourists, Magic, Inspiration, Argentina, Salta, Jujuy, San Martin de los Andes, Bariloche, Iguazu, Buenos Aires, Usuahia">
+<meta name="description"
+        content="Argentina, need reasons to visit? Here are just a few more: You can dance the world's most romantic
+    dance in its birthplace, experience sporting passion like never before, enjoy nightlife that goes on well into the morning, amaze yourself with the most beautiful natural landscapes of the world, and you will for sure eat like a king!">
+
+Brazil
+<meta name="Keywords"
+        content="Brazil, Love, Travel, Beach, Inspiration, Recommendations, Rio de Janeiro, Recife, Porto de Galinhas, Florianopolis, Camboriu, Sao Paulo">
+<meta name="description"
+        content="Brazil, with its unique cuisine, rich culture, some of the most beautiful beaches in the world, breathtaking waterfalls, and adventure for everyone’s">
+
+About us 
+<meta name="Keywords" content="Travel, Love, About us, Vision, Recommendations, Share, Live, Experience, Tourism">
+<meta name="description" content="Connecting traveling passionate people around the world, share experiences, recommendations, meet
+    them and share a day, or a couple of hours touring around. What could be better than experiencing
+    the place you are visiting with a local?">
+   
