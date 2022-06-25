@@ -100,6 +100,11 @@ ul {
 .menuInicio {
   padding: 35px; }
 
+.fijo {
+  width: 100%;
+  position: fixed;
+  z-index: 100; }
+
 .accordion {
   --bs-accordion-bg: $colorGradient; }
 
@@ -189,6 +194,9 @@ form [type=submit]:hover {
 
 .parrafoTercero p {
   margin: 1rem; }
+
+.index {
+  margin-top: 155px; }
 
 .tituloPrincipal {
   display: grid; }
@@ -331,7 +339,8 @@ main div section img {
 @media (max-width: 768px) {
   /* Index */
   .grilla {
-    background-color: thistle; }
+    background-color: thistle;
+    margin-top: 65px; }
   .tituloPrincipal {
     max-width: 60vw;
     justify-items: center; }
