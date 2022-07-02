@@ -40,11 +40,7 @@
 
 main {
     margin-bottom: 1px;
-    margin-left: 1rem;
-    margin-right: 1rem;
     margin-top: 1px;
-    // max-width: fit-content;
-    /* background-color: lightpink; */
     background-color: #FBDA61;
     background-image: $colorGradient;
     border: 1px solid black;
@@ -93,7 +89,6 @@ img {
 .container {
     display: grid;
     grid-template-areas:
-        // "nav nav nav nav"
         "seccion1 seccion1 seccion2 seccion4"
         "seccion1 seccion1 seccion2 seccion4"
         "seccion1 seccion1 seccion2 seccion4"
@@ -104,11 +99,10 @@ img {
     ;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: auto;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
-// .nav {
-    // grid-area: nav;
-// }
 
 .footer {
     grid-area: footer;
@@ -193,6 +187,7 @@ main div section img {
 .aboutus    {
         margin-top: 115px;
     }
+
 
 
 @keyframes scale {
