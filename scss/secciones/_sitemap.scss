@@ -1,0 +1,24 @@
+.siteMap{
+    display: grid;
+    grid-area: 
+    'div1 div2 div3'
+    'div4 div5 div6'
+    'div7'
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    margin: 1rem auto;
+    padding: 1rem auto;
+}
+
+.card{
+    margin: 2rem;
+}
+
+.siteMap{
+    background-image: url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dHJhdmVsJTIwbWFwfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+}
+
+.list-group{
+   background-color: bisque;
+}
